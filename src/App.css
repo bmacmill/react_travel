@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* nav styling */
+.nav-icon {
+  color: white;
+  font-size: 1.5rem;
+  margin-right: .25em;
+}
+
+.Nav {
+  background-color: #F55A5A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em 0;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+/* travel card image */
+img{
+  /* width: 100px; */
+  height: 150px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+/* travel card styling */
+.TravelCard {
+ 
+  padding-top: 2.5em;
+  margin: 0 auto;
+  max-width: 470px;
+  width: 90%;
+  display: flex;
+  color: #2B283A;
+}
+
+.TravelCard_Location {
+  display: flex;
+  gap: .5em;
+  align-items: center;
+}
+
+.TravelCard_Location > i  {
+  color: #F55A5A;
+  font-size: 0.625rem;
+}
+
+.TravelCard_Location-Country {
+  color: #2B283A;
+  font-size: 0.625rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.TravelCard_Location > a {
+ color: #918E9B;
+ font-size: 0.625rem;
+ cursor: pointer;
+ text-decoration: underline;
+}
+
+.TravelCard_Col {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin-left: 1.5em;
+}
+
+.TravelCard_Title > h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.TravelCard_Date > h3 {
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.TravelCard_Description > p {
+  font-size: 0.75rem;
+  font-weight: 200;
+
+}
